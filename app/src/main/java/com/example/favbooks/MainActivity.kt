@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity(), FavoriteBooksClickListenerClickListene
         val mainActivity = this
         binding.recyclerView.apply {
             layoutManager = GridLayoutManager(applicationContext, 3)
-            adapter = CardAdapter(booklist)
+            adapter = CardAdapter(booklist, mainActivity)
         }
     }
 
@@ -110,6 +110,29 @@ class MainActivity : AppCompatActivity(), FavoriteBooksClickListenerClickListene
             "In ancient times the Rings of Power were crafted by the Elven-smiths, and Sauron, The Dark Lord, forged the One Ring, filling it with his own power so that he could rule all others. But the One Ring was taken from him, and though he sought it throughout Middle-earth, it remained lost to him. After many ages it fell into the hands of Bilbo Baggins, as told in The Hobbit."
         )
         booklist.add(book10)
+
+        booklist.add(book1)
+        booklist.add(book2)
+        booklist.add(book3)
+        booklist.add(book4)
+        booklist.add(book5)
+        booklist.add(book6)
+        booklist.add(book7)
+        booklist.add(book8)
+        booklist.add(book9)
+        booklist.add(book10)
+
+        booklist.add(book1)
+        booklist.add(book2)
+        booklist.add(book3)
+        booklist.add(book4)
+        booklist.add(book5)
+        booklist.add(book6)
+        booklist.add(book7)
+        booklist.add(book8)
+        booklist.add(book9)
+        booklist.add(book10)
+        
 
     }
 
